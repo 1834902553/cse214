@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
     int arr[100];
     int i=0,j;
     while(scanf("%d",&arr[i])!=EOF){
@@ -9,7 +8,8 @@ int main()
     }
     for(j=0;j<i;j++)
     {
-        printf("%d",arr[j]);
+        printf("%d ",arr[j]);
     }
     return 0;
 }
+
