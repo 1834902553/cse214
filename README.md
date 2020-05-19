@@ -5,4 +5,4 @@ int main(){
 int arr[100];
 int i=0,n;
 scanf("%d",&n);
-...c
+...
