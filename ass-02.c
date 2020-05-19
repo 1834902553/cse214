@@ -2,7 +2,7 @@
 int main()
 {
 
-    int arr[10];
+    int arr[100];
     int i=0,j;
     while(scanf("%d",&arr[i])!=EOF){
         i++;
