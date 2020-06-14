@@ -3,6 +3,8 @@ LAB ASSIGNMENT-02
 
 Insert
 
+Update
+
 Search
 
 Delete
