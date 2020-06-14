@@ -31,6 +31,7 @@ Cyclically permute
     }
     ```
     
+    
     02.Reverse the given array and store it in another array.
     
     ```C
