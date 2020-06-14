@@ -48,6 +48,7 @@ Cyclically permute
         printf("%d ",b[i]);
     }
     ```
+    
     03.Reverse the given array  within the same array.
     
     ```C
@@ -59,6 +60,7 @@ Cyclically permute
         printf("%d ",a[i]);
     }
     ```
+    
     04.Declare another array with ten (10) values and compare both array whether they are same or not.
     
     ```C
@@ -75,6 +77,7 @@ Cyclically permute
     }
     if(temp == 1)
     ```
+    
     05.Declare another array with five (5) values and merge two array into one array.
     
     ```C
@@ -109,6 +112,7 @@ Cyclically permute
                 c[j] = temp;
             }
             ```
+            
     07.Split an array at K th (take input k from user) index into two different array.
     
     ```C
@@ -128,6 +132,7 @@ Cyclically permute
     }
     size_c = size_a - index;
     ```
+    
     08.Cyclically permute the elements of an array.
     
     ```C
