@@ -14,7 +14,7 @@ Split
 
 Cyclically permute
 
-01.Copy the given array into another array
+01.Copy the given array into another array.
 
 ```C
  int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, size = 10;
@@ -32,7 +32,7 @@ Cyclically permute
     ```
     
     
-    02.Reverse the given array and store it in another array.
+   02.Reverse the given array and store it in another array.
     
     ```C
      int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, size = 10;
