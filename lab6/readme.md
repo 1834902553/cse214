@@ -25,3 +25,15 @@ b.next=&c;
 c.value=6;
 c.next=NULL;
 ```
+
+02.Define a function to print single node (address,value,and next address)of the linked list and do the same as problem 1.(Use typedef keyword ,Don't use DMA).
+
+```C
+void print_linked_list(node *temp){
+    while(temp!=NULL){
+ printf("%p\t %d %p\n ", temp, temp->value, temp->next);
+ temp=temp->next;
+}
+return 0;
+}
+```
