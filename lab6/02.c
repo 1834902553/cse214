@@ -18,9 +18,14 @@ b.next=&c;
 c.value=6;
 c.next=NULL;
 temp=head;
-while(temp!=NULL){
-        printf("%p\t %d %p\n ", temp, temp->value, temp->next);
-temp=temp->next;
+print_linked_list(head);
+return 0;
+}
+
+void print_linked_list(node *temp){
+    while(temp!=NULL){
+ printf("%p\t %d %p\n ", temp, temp->value, temp->next);
+ temp=temp->next;
 }
 return 0;
 }
