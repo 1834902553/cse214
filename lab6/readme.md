@@ -83,3 +83,30 @@ while(temp!=NULL){
 }
 
 ```
+
+05.Define a function to display the compelete linked list with a recursive function using problem-04.
+
+```C
+void print_list(node* head){
+
+    printf("%d",head->data);
+    if(head==NULL){
+        return;
+    }
+    print_List(head->next);
+}
+```
+
+06.Define a function to display the compelete linked list in reverse order with a recursive function using problem-04.
+
+```C
+void print_list(node* head){
+
+    node *temp;
+    temp = head;
+
+ while(temp!=NULL){
+    printf("%d\t",temp->data);
+    temp = temp->next;
+ }
+```
