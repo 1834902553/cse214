@@ -39,13 +39,13 @@ node* create_list()
     b=(node*) malloc(sizeof(node));
     c=(node*) malloc(sizeof(node));
 
-    a->data=12;
+    a->data=2;
     a->next=b;
 
-    b->data=14;
+    b->data=4;
     b->next=c;
 
-    c->data=15;
+    c->data=6;
     c->next=NULL;
 
     return a;
