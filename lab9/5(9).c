@@ -1,4 +1,4 @@
-//*Implement an Insert After function to insert an element after a node with value key of the linked list.Take input key and new node value from user.(check index out of range). *//
+//*Implement an Insert before function to insert an element before a node with value key of the linked list.Take input key and new node value from user.(check index out of range). *//
 
 #include <stdio.h>
 #include<stdlib.h>
