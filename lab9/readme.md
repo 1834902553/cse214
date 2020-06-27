@@ -107,8 +107,36 @@ Insert before
 
 ```
 
-05.Implement an Insert After function to insert an element after a node with value key of the linked list.Take input key and new node value from user.(check index out of range). 
+05.Implement an Insert Before function to insert an element before a node with value key of the linked list.Take input key and new node value from user.(check index out of range). 
 
 ```C 
+
+  node *insert_before(node *temp, int key, int value)
+
+  {
+
+      node*prev, *head=temp;
+      while(temp){
+        if(temp->value==key){
+                if(temp==head){
+            node *new_node=(node*)malloc(sizeof(node));
+            new_node->value=value;
+            new_node->next=temp;
+            return new_node;
+        }
+        else{
+             node *new_node=(node*)malloc(sizeof(node));
+            new_node->value=value;
+            new_node->next=temp;
+            prev->next=new_node;
+            return head;
+        }
+        prev=temp;
+        temp=temp->next;
+      }
+      //printf("Element Not Found\n");
+      return head;
+  }
+  }
 
 ```
