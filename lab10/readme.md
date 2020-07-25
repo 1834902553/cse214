@@ -137,3 +137,26 @@ void size() {
 
 
 ```
+
+LIST
+
+A list or sequence is an abstract data type that represents a countable number of ordered values, where the same value may occur more that once. An instance of a list is a computer representation of the mathematical concept of a tuple or finite sequence, the infinite analog of a list is a stream. List are a basic example of containers, as they contain other values. If the same value occurs multiple times, each occurrence is considered a distinct item. 
+
+Follow operation in our code:
+
+Implementation of the list data structure may provide same of the following operations.
+•	 An operation for determining the first component (or the “Head”) of a list.
+•	 An operation for referring to the list consisting of all the component of a list except for its first (this is called the “Tail”) of the list.
+•	A constructor for creating an Empty list.
+•	An operation for create Front.
+•	An operation for create Back.
+•	An operation for create Push Front.
+•	An operation for create Push Back.
+•	An operation for create Pop Front.
+•	An operation for create Pop Back.
+•	An operation for create Size.
+•	An operation for Clean.
+•	An operation for Display.
+
+
+
