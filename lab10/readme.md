@@ -145,18 +145,52 @@ A list or sequence is an abstract data type that represents a countable number o
 Follow operation in our code:
 
 Implementation of the list data structure may provide same of the following operations.
+
 •	 An operation for determining the first component (or the “Head”) of a list.
+
 •	 An operation for referring to the list consisting of all the component of a list except for its first (this is called the “Tail”) of the list.
+
 •	A constructor for creating an Empty list.
+
 •	An operation for create Front.
+
 •	An operation for create Back.
+
 •	An operation for create Push Front.
+
 •	An operation for create Push Back.
+
 •	An operation for create Pop Front.
+
 •	An operation for create Pop Back.
+
 •	An operation for create Size.
+
 •	An operation for Clean.
+
 •	An operation for Display.
+
+Uses of list in computer science:
+
+•	Implementation of stacks and queues.
+
+•	Implementation of graphs.
+
+•	Dynamic memory allocation: We use linked list of free blocks.
+
+•	Maintaining directory of names.
+
+•	Performing arithmetic operations on long integers.
+
+•	Representing sparse matrices.
+
+Uses of list in real world:
+
+•	Image viewer-Previous and next images are linked, hence can be accessed by next and previous.
+
+•	Music player- Songs in music player are linked to previous and next song, you can play songs either from starting or ending of the list.
+
+
 
 
 
